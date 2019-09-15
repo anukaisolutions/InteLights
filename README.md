@@ -6,8 +6,8 @@ InteLights proposes a 360° solution to curb the rising problem of traffic conge
 2.Electrical Switching circuits(Consisting of mosfets,Buck Converter,Transistors,OptoCouplers)
 
 # Libraries Used
-1.https://software.intel.com/en-us/distribution-for-python/choose-download
-2.https://software.intel.com/en-us/daal
+1.**https://software.intel.com/en-us/distribution-for-python/choose-download**
+2.**https://software.intel.com/en-us/daal**
 3.https://opencv.org/
 4.https://www.tensorflow.org/
 
