@@ -18,7 +18,7 @@ https://www.academia.edu/2527399/ESTIMATION_OF_FUEL_LOSS_DURING_IDLING_OF_VEHICL
 http://intelights.herokuapp.com/
 
 # Android app source code
-https://github.com/rahulgoyal911/anukaisolutions/tree/master/android%20app
+https://github.com/anukaisolutions/INTELIGHTS/tree/master/android%20app
 
 # Web Portal Screenshot
 ![Android](portal.png)
