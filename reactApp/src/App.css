@@ -1,0 +1,129 @@
+.lights-common {
+  height: 20px;
+  width: 20px;
+  margin-bottom: 3px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+
+.App {
+  text-align: center;
+}
+
+.line-seperator {
+  width: 100%;
+  height: 4px;
+  border-radius: 5px;
+  background-color: #4d4242;
+}
+
+.maps-header {
+  display: flex;
+  margin-bottom: 4px;
+  font-family:'tahoma';
+  padding: 5px;
+  background-color: #f7d3d3;
+}
+
+.map-footer {
+  margin-top: 8px;
+}
+
+.maps-header-center {
+  font-weight: 550;
+  font-size:'18px';
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.maps-header-circle {
+  width: 15px;
+  height: 15px;
+  align-self: center;
+  background: red;
+  border-radius: 10px;
+  margin-right: 3px;
+}
+
+.maps-header-left {
+}
+
+body {
+  margin: 30px;
+}
+
+.maps-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.map-first {
+  height: 500px;
+  width: 30%;
+}
+
+.map-second {
+  height: 500px;
+  width: 60%;
+}
+
+.header {
+    text-align: center;
+    background: url(https://media.giphy.com/media/3o6Ztb45EYezY9x9gQ/giphy.gif);
+    background-size: contain;
+    background-position: top left;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    font-size: 2.7rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.light-container {
+  width: 25px;
+  padding: 4px;
+  /* color: black; */
+  background-color: #5d615d;
+  border-radius: 10px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* TOOLTIP */
+[data-tooltip]{position:relative;}
+[data-tooltip]:before,
+[data-tooltip]:after{visibility:hidden;opacity:0;position:absolute;left:50%;transform:translateX(-50%);white-space:nowrap;transition:all .2s ease;font-size:15px;}
+[data-tooltip]:before{content:attr(data-tooltip);height:14px;position:absolute;top:-10px;padding:7px 10px;border-radius:5px;color:#fff;background:#025272;box-shadow:0 3px 8px rgba(165, 165, 165, 0.5);}
+[data-tooltip]:after{content: '';border-left:5px solid transparent;top:2px;border-right:5px solid transparent;border-top:5px solid #025272;}
+[data-tooltip]:not([data-tooltip=""]):hover:before{visibility:visible;opacity:1;top:-30px}
+[data-tooltip]:not([data-tooltip=""]):hover:after{visibility:visible;opacity:1;top:-8px}
