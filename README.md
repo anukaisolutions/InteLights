@@ -3,13 +3,18 @@ InteLights proposes a 360° solution to curb the rising problem of traffic conge
 
 # Hardware used
 1.Lattepanda(LattePanda is a new single board computer that runs a full version of Windows 10! ... LattePanda is the first development board that can run a full version of Windows 10! It is turbocharged with an **Intel Quad Core processor** and has excellent connectivity, with three USB ports and integrated WiFi and Bluetooth 4.0.)
+<br/>
 2.Electrical Switching circuits(Consisting of mosfets,Buck Converter,Transistors,OptoCouplers)
 
 # Libraries Used
 1.**https://software.intel.com/en-us/distribution-for-python/choose-download**
+<br/>
 2.**https://software.intel.com/en-us/daal**
+<br/>
 3.https://opencv.org/
+<br/>
 4.https://www.tensorflow.org/
+<br/>
 
 # Research paper - Wastage of Fuel
 https://www.academia.edu/2527399/ESTIMATION_OF_FUEL_LOSS_DURING_IDLING_OF_VEHICLES_AT_SIGNALISED_INTERSECTIONS_IN_DELHI
