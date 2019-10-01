@@ -40,7 +40,7 @@ red1=2
 yel1=3
 gre1=4
 
-red2=17
+red2=18
 yel2=27
 gre2=22
 
