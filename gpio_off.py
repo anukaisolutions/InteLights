@@ -19,7 +19,7 @@ gre4=13
 
 
 
-
+# False for transistors and True for low triggered relay modules
 def off_gpio():
     GPIO.output(red1, False)
     GPIO.output(yel1, False)
