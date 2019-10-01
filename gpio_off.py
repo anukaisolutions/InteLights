@@ -1,9 +1,9 @@
 import RPi.GPIO as GPIO
 
 #lane1
-red1=2
-yel1=3
-gre1=4
+red4=2
+yel4=3
+gre4=4
 
 #lane2
 red2=17
